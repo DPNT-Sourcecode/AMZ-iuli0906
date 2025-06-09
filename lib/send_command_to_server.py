@@ -58,7 +58,9 @@ runner = QueueBasedImplementationRunnerBuilder()\
     .with_solution_for('hello', entry_point_mapping.hello)\
     .with_solution_for('fizz_buzz', entry_point_mapping.fizz_buzz)\
     .with_solution_for('checkout', entry_point_mapping.checkout)\
-    .with_solution_for('rabbit_hole', entry_point_mapping.rabbit_hole)\
+    .with_solution_for('rabbit_hole', entry_point_mapping.rabbit_hole) \
+    .with_solution_for('amazing_maze', entry_point_mapping.amazing_maze) \
+    .with_solution_for('ultimate_maze', entry_point_mapping.ultimate_maze) \
     .with_solution_for('increment', entry_point_mapping.increment)\
     .with_solution_for('to_uppercase', entry_point_mapping.to_uppercase)\
     .with_solution_for('letter_to_santa', entry_point_mapping.letter_to_santa)\
